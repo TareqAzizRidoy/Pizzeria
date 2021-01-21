@@ -1,0 +1,410 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 24px; 
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+
+/* header section start */
+
+.header{
+    width: 100%;
+    background: url("../images/bg.png") center top no-repeat;
+    background-size: cover;
+    padding: 80px 0px;
+}
+.header .nav-section .bg-light{
+    background: transparent !important;
+    margin-top: -35px;
+}
+.header .nav-section .bg-light img{
+    margin-right: 300px;
+}
+.header .navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-right: 50px;
+}
+.header .inner-header{
+    width: 100%;
+    padding: 330px 0px 300px;
+}
+.header .inner-header h1{
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.header .inner-header h1 span{
+    font-weight: 400;
+}
+.inner-header .btn-primary{
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #ffba00;
+    border: 4px solid #fff;
+    padding: 5px 20px 5px 70px;
+    margin-top: 70px;
+    transition: 1s;
+}
+.inner-header .btn-primary:hover, .inner-header .btn-primary:focus{
+    color: #ffba00;
+    background-color: #fff;
+    border: 4px solid #ffba00;
+}
+
+/* header section end */
+
+/* format section start */
+
+.format{
+    width: 100%;
+    padding: 80px 0px;
+    background: url("../images/bg1.png") right top no-repeat;
+    background-size: cover;
+}
+.format .inner-format{
+    width: 100%;
+    padding: 60px 0px;
+}
+.format .inner-format h1{
+    font-size: 35px;
+    font-weight: 500;
+    color: #000;
+    line-height: 45px;
+    margin-bottom: 70px;
+}
+.format .inner-format .format-item p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+/* format section end */
+
+/* quantity section start */
+
+.quantity{
+    width: 100%;
+    padding: 80px 0px;
+    background: #242424;
+}
+.quantity .inner-quantity{
+    width: 100%;
+}
+.quantity .inner-quantity h4{
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #ffba00;
+    margin-bottom: 30px;
+}
+.quantity .inner-quantity p{
+    font-size: 14px;
+    color: #fff;
+    margin: 0px;
+}
+
+/* quantity section end */
+
+/* pricing section start */
+
+.pricing{
+    width: 100%;
+    padding: 80px 0px;
+    background: url("../images/bg2.png") center top no-repeat;
+    background-size: cover;
+}
+.pricing .header-part{
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.pricing .header-part h4{
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 40px;
+    color: #ffba00;
+    margin-bottom: 80px;
+}
+.pricing .header-part h1{
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 70px;
+    color: #ffba00;
+}
+.pricing .middle-part{
+    width: 100%;
+    padding: 10px 0px;
+}
+.pricing .middle-part h3{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #fff;
+    letter-spacing: 2px;
+    margin: 0px;
+}
+.pricing .middle-part p{
+    font-size: 20px;
+    color: #fff;
+}
+.pricing .footer-part p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 30px;
+    padding: 0px;
+    margin-top: 220px;
+}
+
+/* pricing section end */
+
+/* concept section start */
+
+.concept{
+    width: 100%;
+    padding: 80px 0px;
+    background-color: #242424;
+}
+.concept .inner-concept{
+    width: 100%;
+    text-align: center;
+}
+.concept .inner-concept h4{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #ffba00;
+}
+.concept .inner-concept h4 span{
+    font-weight: 800;
+}
+.concept .inner-concept p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 18px;
+}
+.concept .inner-concept .inner-nav .bg-light{
+    background: transparent !important;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    font-size: 14px;
+    transition: 1s;
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus{
+    color: #ffba00;
+}
+
+/* concept section rnd */
+
+/* master class section start */
+
+.master-class{
+    width: 100%;
+    padding: 80px 0px;
+    background: url("../images/bg3.png") center top no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.master-class .raisa{
+    padding-bottom: 50px;
+}
+.master-class .raisa h2{
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.master-class .tareq{
+    padding: 0px 30px 20px;
+}
+.master-class .tareq h1{
+    font-size: 35px;
+    color: #fff;
+    font-weight: 300;
+}
+.master-class .tareq p{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.master-class .aziz{
+    margin-bottom: 100px;
+    margin-left: 130px;
+}
+.master-class .aziz p{
+    font-size: 22px;
+    color: #fff;
+    font-weight: 400;
+}
+.master-class .ridoy{
+    margin-left: 138px;
+    padding-bottom: 50px;
+}
+.master-class .ridoy a{
+    font-size: 22px;
+    color: #fff;
+    font-weight: 400;
+}
+.master-class .ridoy .btn-info{
+    font-size: 22px;
+    color: #fff;
+    padding: 5px 20px 5px 70px;
+    text-transform: uppercase;
+    background: #ffba00;
+    border: 2px solid #ffba00;
+    border-radius: 0px;
+    font-weight: 400;
+    transition: 1s;
+}
+.master-class .ridoy .btn-info:hover, .master-class .ridoy .btn-info:focus{
+    color: #ffba00;
+    background-color: #fff;
+    border: 2px solid #fff;
+}
+.master-class .huzu{
+    width: 23%;
+    height: 47%;
+    background-color: #ffba00;
+    position: absolute;
+    top: 140px;
+    z-index: -1;
+}
+
+/* master class section end */
+
+/* contact section start */
+
+.contact{
+    width: 100%;
+    padding: 80px 0px;
+    background: #242424;
+}
+.contact h2{
+    font-size: 35px;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.contact .inner-first-contact{
+    width: 100%;
+}
+.contact .inner-first-contact p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    text-align: end;
+    margin-right: 50px;
+}
+.contact .inner-2nd-contact{
+    width: 100%;
+    margin-left: 50px;
+}
+.contact .inner-2nd-contact p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.contact .social-icons{
+    width: 100%;
+    padding: 0px;
+}
+.contact .social-icons li{
+    list-style: none;
+    display: inline-block;
+}
+.contact .social-icons li a{
+    display: block;
+    transition: 1s;
+    font-size: 22px;
+    color: #ffba00;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 5px;
+}
+.contact .social-icons li a:hover, .contact .social-icons li a:focus{
+    color: #fff;
+}
+.contact .inner-3rd-contact{
+    width: 100%;
+}
+.contact .inner-3rd-contact a{
+    font-size: 22px;
+    font-weight: 600;
+    color: #ffba00;
+    transition: 1s;
+}
+.contact .inner-3rd-contact a:hover, .contact .inner-3rd-contact a:focus{
+    color: #fff;
+}
+
+/* contact section end */
+
+/* footer section start */
+
+.footer{
+    width: 100%;
+    padding: 60px 0px;
+    background: #483500;
+}
+.footer h4{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.footer p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0px;
+}
+.footer .menu h4{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0px;
+}
+.footer .menu p a{
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: capitalize;
+    margin: 0px;
+    transition: 1s;
+}
+.footer .menu p a:hover, .footer .menu p a:focus{
+    color: #ffba00;
+}
+
+/* footer section end */
