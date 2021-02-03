@@ -22,12 +22,9 @@ a, a:hover{
     background-size: cover;
     padding: 80px 0px;
 }
-.header .nav-section .bg-light{
+.header .bg-light{
     background: transparent !important;
     margin-top: -35px;
-}
-.header .nav-section .bg-light img{
-    margin-right: 300px;
 }
 .header .navbar-light .navbar-nav .nav-link{
     color: #fff;
