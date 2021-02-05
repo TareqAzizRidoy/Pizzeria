@@ -363,6 +363,66 @@ a, a:hover{
 
 /* contact section end */
 
+/* brand section start */
+
+.brand{
+    width: 100%;
+    padding: 80px;
+    background: #000;
+}
+.brand .mixitup{
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+}
+.brand .mixitup button{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #fcc204;
+    margin: 0px 5px 30px;
+    outline: 0px;
+    border: 0px;
+    background: transparent;
+    transition: 1s;
+}
+.brand .mixitup button:hover, .brand .mixitup button:focus{
+    color: #fff;
+}
+.padd{
+    padding: 30px;
+}
+.portfolio .item{
+    width: 100%;
+    position: relative;
+}
+.portfolio .item-hover{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: #c9ca6d7e;
+    text-align: center;
+    transform: scale(0);
+    transition: 0.5s;
+}
+.portfolio .item:hover .item-hover{
+    transform: scale(1);
+}
+.portfolio .item-hover .fa{
+    font-size: 50px;
+    color: #ffba00;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* brand section end */
+
 /* footer section start */
 
 .footer{
